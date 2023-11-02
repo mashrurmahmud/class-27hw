@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+nav{
+    background-color: darkseagreen;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .container{
+    
+    
+    background-color: black;
+    
+}
+
+ul{
+    list-style-type: none;
+   
+   
+
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+.row li a{
+    padding: 19px 22px;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: azure;
+    transition: .4s;
+    
+    
+    
+   
+    
+    
+}
+
+.row li a:hover{
+    background-color: blue;
+}
+button{
+    width: 48px;
+    height: 57px;
+    font-size: 34px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+.car_img img{
+    width: 100%;
+    position: relative;
+}
+
+
+.test{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    
+}
+
+.margin-slide{
+    background-color: black;
+    width: 250px;
+    position: absolute;
+    top: 220px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.margin-slide .slide li a{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #ffff;
+    border-bottom: 1px solid #ffff;
+
+
+}
+
+.dash{
+    margin-left: -220px;
+    transition: 0.5s;
+    
+
+
+
+}
+
+
+
